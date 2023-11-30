@@ -1,0 +1,37 @@
+/*Documento CSS*/
+
+
+*{margin: 0;
+    padding: 0;}
+   
+body {background-color: mediumpurple;}
+   
+   h1 {background-color:beige;
+   text-align: center;
+   color: mediumpurple;
+   padding: 30px 15px 30px 15px;
+   margin: 10px;}
+
+   li {text-align: center;
+    color: white;
+    margin: 1% auto;}
+   
+   img {margin:2% auto;
+        image-orientation: center;
+    display: block;}
+
+   h2 {
+    background-color: mediumpurple;
+    text-align: center;
+    color: white;
+    padding: 30px 15px 30px 15px;
+    margin: 10;}
+
+
+    p {color: white;
+    text-align: center;
+    margin: 1% auto;}
+
+
+    .item {font-family: 'Courier New', Courier, monospace,sans-serif;}
+    

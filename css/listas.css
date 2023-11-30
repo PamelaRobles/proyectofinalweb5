@@ -1,0 +1,36 @@
+/*Documento CSS*/
+
+*{margin: 0;
+ padding: 0;}
+
+body {background-color:burlywood;}
+
+h1{ background-color: indianred;
+text-align: center;
+text-transform: uppercase;
+color: beige;
+padding: 30px 15px 30px 15px;
+margin-bottom: 20;}
+
+
+p{color: beige;}*/
+
+.contenido{color: yellowgreen;}
+
+.atencion{color: indianred;}
+
+.contenido p {color: white;}
+
+section.contenido p{color: olivedrab;
+                 padding: 20px 0px;}
+
+#warning{color: maroon;
+         line-height:1.5;
+         text-align: justify;
+         font-weight: bold;
+         font-size: 1.3em;
+         background-color: aliceblue;}
+
+.listas {margin-top: 20px;}
+
+        

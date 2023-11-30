@@ -1,0 +1,47 @@
+/*Documento CSS*/
+
+*{margin: 0;
+padding: 0;}
+
+div,header,section,nav,article,footer,aside {box-sizing: border-box;}
+
+.flex-container {display: flex;
+                 flex-flow: column wrap;
+                 width: 100%; 
+                background: purple;
+                padding: 15px;
+                 box-sizing: border-box;}
+
+
+.items {width: 100%;
+        min-height: 200px;
+        text-align: center;
+        color:black;
+        font-size: 10em;}
+        
+ /*Media Queries Pantallas mayores a 600px*/
+ 
+ @media only scren and (min-width:600px) {
+
+
+    .items {color: red;
+    background-color: orange;
+ margin-bottom: 15px;}
+
+ }
+
+/*Pantalla dmayores a 778*/
+@media only scren and (min-width:600px) {
+}
+
+
+/*Pantalla dmayores a 1280*/
+@media only scren and (min-width:1280px) {
+    .flex-container {flex-flow: row wrap;
+   width: 40%; 
+margin: auto;
+background-color: transparent;}
+
+.items {color: blue;
+background-color: transparent;
+width: 33.33%;}
